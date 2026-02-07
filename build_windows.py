@@ -116,7 +116,7 @@ def main():
     
     if returncode == 0:
         print("\n" + "="*60)
-        print("✅ BUILD SUCCESSFUL!")
+        print("BUILD SUCCESSFUL!")
         print("="*60)
         print("\nYour Windows app is ready at:")
         print("  dist\\SmartScreengrabberPro\\SmartScreengrabberPro.exe")
@@ -132,7 +132,7 @@ def main():
         print("  3. No Python or dependencies needed!")
     else:
         print("\n" + "="*60)
-        print("❌ BUILD FAILED")
+        print("BUILD FAILED")
         print("="*60)
         print("\nCheck build_windows.log for details.")
         print("\nCommon issues:")
